@@ -28,10 +28,11 @@ img {
   color: #454546;
   font-family: "Poppins";
 }
-.main-header__container{
+.main-header_container{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 20px;
 }
 .main-header__link {
   color: #333;
@@ -316,8 +317,8 @@ img {
 }
 
 .main-footer{
-  background: #151515;
-  color: white;
+  background: #F8DEE0;
+  color: rgb(14, 11, 11);
   padding: 30px 20px;
 }
 .footer__title{
@@ -335,7 +336,7 @@ img {
 }
 
 .footer__input{
-  background: #151515;
+  /* background: #151515; */
   width: 100%;
   display: block;
   padding: 20px;
