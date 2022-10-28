@@ -1,6 +1,7 @@
 body {
     background-image: url(images/Fondo_contacto.png);
-    background-size: 100vw 100vh;
+    background-size: 100vw ;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0;
     font-family: monospace;
