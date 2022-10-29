@@ -49,7 +49,7 @@ img {
   position: absolute;
   top: 180px;
   left: 0;
-  background: #F8DEE0;
+  background: #0d0c0c;
   width: 100%;
   list-style: none;
   padding: 0px;
@@ -61,7 +61,7 @@ img {
 }
 .menu__link {
   padding: 20px;
-  color: rgb(9, 7, 7);
+  color: rgb(231, 214, 214);
   text-decoration: none;
   position: relative;
   display: block;
@@ -83,7 +83,16 @@ img {
   padding: 10px 20px;
   cursor: pointer;
   margin-left: auto;
+  
+  
 }
+
+.icon-menu img{
+  width: 20px;
+  height: 20px;
+  border-radius:2px
+}
+
 .main-header__btn{
   display: block;
   padding: 10px 30px;
@@ -422,7 +431,7 @@ img {
     color: #333;
   }
   .menu__link:hover{
-    background: #F8DEE0;
+    background: #0b0b0b;
     color: white;
   }
   .container-products {
