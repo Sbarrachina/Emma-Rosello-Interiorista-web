@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto 3 </title>
+    <link rel="stylesheet" href="Contacto2_estilos.css">
+
+ <!-- bootstrap -->
+ <link href="https://www.susannacots.com/admin/css/bootstrap.css" rel="stylesheet">
+ <link href="https://www.susannacots.com/admin/css/bootstrap.min.css" rel="stylesheet">
+ 
+ <link media="all" href="https://www.susannacots.com/css/app.css" rel="stylesheet">
+ 
+ <!-- fontAwesome icons -->
+ <link href="https://www.susannacots.com/front/css/font-awesome.css" rel="stylesheet" type="text/css">
+
+<!-- Cookie Consent by https://www.FreePrivacyPolicy.com -->
+
+<script type="text/javascript" src="//www.freeprivacypolicy.com/public/cookie-consent/4.0.0/cookie-consent.js" charset="UTF-8"></script>
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({"notice_banner_type":"simple","consent_type":"express","palette":"light","language":"es","page_load_consent_levels":["strictly-necessary"],"notice_banner_reject_button_hide":true,"preferences_center_close_button_hide":false,"website_name":"susannacots.com"});
+});
+</script>
+
+<noscript>Cookie Consent by <a href="https://www.FreePrivacyPolicy.com/free-cookie-consent/" rel="nofollow noopener">FreePrivacyPolicy.com</a></noscript>
+<!-- End Cookie Consent -->
+
+
+
+</head>
+
+
+<body>
+    <header id="masthead"  class="empty" ><meta charset="gb18030">
+        <!-- Header version desktop -->
+         
+            <div id="container-header-standard" class="container-fluid main-container-header ">
+                <div class="row d-md-flex d-none justify-content-center padding-general" >
+                    <div class="col-lg-2 col-md-3 pt-5 pb-5">
+                        <a href="index.html">
+                                                        <img src="/images/contacto/logo_header_Emma.png" class="icon logo-header " id="header-other"  >
+                                                </a>
+                    </div>
+                    <div class="col-lg-7 col-md-6 col-xl-5 d-flex flex-column justify-content-center p-5 m-auto">
+                        <div class="row p-3 p-md-0 elements-nav-standart d-flex justify-content-end ">
+                            <div class="offset-xl-2 col-xl-10 offset-lg-1 col-lg-11 col-md-12 offset-md-0 d-flex justify-content-around  top_block_nav_two   " id="change-color">
+                                <a href="index.html" class=" pr-lg-3   ">HOME</a>
+                                <a href="#"class=" px-lg-5   ">TRABAJOS</a>
+                                <a href="tienda.html" class=" px-lg-4   ">TIENDA</a>
+                                <a href="#" class="px-lg-5   ">NEWS</a>
+                                <a href="contacto2.html" class="pl-lg-3  underline-txt text-style-header"  ">CONTACTO</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-lg-1 col-1 d-flex flex-column justify-content-center" id="change-color1">
+                        <div class="row p-4 elements-nav-standart d-flex justify-content-end">
+                            <div class="offset-xl-7 align-items-center col-7 col-xl-5  d-flex justify-content-around  top_block_nav_two " > 
+                              <div class="select">
+                                               
+                                    <a href="contacto2.html" id="esChange"  class="d-none" ></a>
+                                                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Header versión tablet & mobile -->
+                <div class="row d-md-none d-flex p-3">
+                    <div class="col-9 d-flex pb-4 pb-md-0 align-items-center ">
+                        <a href="index.html">
+                                                        <img id="logo-mobile" src="images/contacto/logo_mobile_emma.png" class="icon pt-4" style="max-width: 171px;"  onload="SVGInject(this)">
+                                                </a>
+                    </div>
+                    <div class="col-3 d-flex  align-items-center p-0 justify-content-end mb-auto">
+                        <div class="d-flex justify-content-around p-3 ">
+                            <a class="cursor-pointer" onclick="show_menu_mobile()">
+    
+                                
+                                                            <img src="https://www.susannacots.com/images/header/svg/hamburguer.svg" id="hamburguer-black" class="icon " >
+                                                        </a>
+                        </div>
+                    </div>
+    
+                    <!-- Menú desplegable burguer -->
+                    <div class="container-menu-nav noneactive pt-5" id="hanburga">
+                        <div class="row d-flex flex-column w-100 first-page-menu pt-5">
+                            <a  href="index.html" class="p-4 ml-4 pl-5 letters-nav-mobile"   >HOME</a>
+                            <a href="#" class="p-4 ml-4 pl-5 letters-nav-mobile"  >TRABAJOS</a>
+                            <a href="tienda.html" class="p-4 ml-4 pl-5 letters-nav-mobile"  >TIENDA</a>
+                            <a href="#" class="p-4 ml-4 pl-5 letters-nav-mobile"   >NEWS</a>
+                            <a href="contacto2.html" class="p-4 ml-4 pl-5 letters-nav-mobile"   class="underline-txt" >CONTACTO</a>
+                        </div>
+                        <div class="mt-5 row d-flex justify-content-between container-lang-hamburguer first-page-menu ">
+                            <a id="ESPM" class="p-4 ml-4 letters-of-lang-mobile cursor-pointer  font-weight-bold  " onclick="fnselect_lang(1)"     ></a>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+            <!-- On click Shop menu desplegate white box contains submenus of Shop -->
+            <div class="container-fluid p-0 main-menu-shop">
+                <div class="row white-section-shop m-0 d-none justify-content-center" id="shop-to-scroll-active" >
+                    <div class="col-6 p-5 d-flex justify-content-end adjust-shop-items-width">
+                       <div class="d-flex flex-column  p-5">
+                        <h3 class="submenu-tittle-shop p-2">msg.header.menu13</h3>
+                       </div>
+                    </div>
+                    <div class="col-6 d-flex justify-content-center p-5 adjust-shop-items-width">
+                        <div class="d-flex flex-column  p-5">
+                            <h3 class="submenu-tittle-shop p-2">msg.header.menu14</h3>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <head>
+        <meta name="_token" content="WVvjBNLwmjepXoJhe35V3rKip3PySUj3cjDPV02u" />
+    </head>
+    <section class="contact">
+        <div class="container-fluid margin-top-container">
+            <div class="row max-width-set">
+                <div class="col-12">
+                    <div class="menu-navigation">
+        <a href="index.html" class="home-nav">Home</a>
+                            <p class="slash black">/ <strong>Contacto</strong></p>
+                </div>            </div>
+            </div>
+        </div>
+        <div class="container-fluid margin-top-container top-margin" >
+            <div class="row max-width-set">
+                <div class="col-md-8 col-12 ">
+                    <h1 class="title-section">Contacto</h1>
+                    <p class="text-1" >
+                     Contacta con nosotros y cuéntanos más de tu proyecto.</p>
+                     <p class="text-5 py-5" style="margin-top: 2%;">Todos los campos del formulario son obligatorios. Los utilizaremos para contactarle.</p>
+
+                     
+                     <form class="form" action="https://formspree.io/f/mpzbokrb"
+                     method="POST">
+           
+                       <input type="text" placeholder="First Name" name="First Name" />
+           
+                       <input type="text" placeholder="Last Name" name="Last Name" />
+           
+                       <input type="email" placeholder="Email:" name="email" />
+           
+                       <textarea placeholder="Message" name="Message"></textarea>
+
+                       
+           
+           
+                       <button type="submit" class="btn-info>">Enviar Mensaje</button>
+
+                     <br> <br>
+                                <small class="hidden-google">Este sitio está protegido por reCAPTCHA y se aplican la <a target="_blank" href="https://policies.google.com/privacy">Política de privacidad</a> y <a target="_blank" href="https://policies.google.com/terms">Términos del servicio</a> de Google.</small>
+                            </form>
+                            <p class="text-2">FOR PRESS</p>
+                            <p class="text-3">Si eres un medio y te interesa contactar con nuestro equipo de prensa, puedes hacerlo aquí.</p>
+                            <a href="mailto:rosinteriors@gmail.com" class="email">press@rosinteriors.com</a>
+                            <a href="tel:0034615431842" class="telf-last">+34 600 123 456</a>
+                    
+                </div>
+                <div class="col-md-4 col-12 colapse-width-responsive ">
+                    <img class="img-fluid w-100 d-block" src="images/contacto/foto4_emma.png">
+                    <img class="img-fluid w-100 d-none d-md-block" src="/images/contacto/foto2.jpg">
+                </div>
+    
+                <div class="col-md-8 col-12">
+                            
+                             <p class="text-4">Si lo prefiere, puede utilizar el formulario para enviarnos un correo electrónico.</p> 
+                           
+                        </div>
+                        <div class="col-md-4 d-md-block d-none">
+                             <img class="img-fluid w-100 d-block" src="/images/contacto/foto4.jpg"> 
+                        </div>
+            </div>
+        </div>
+        <div>
+            <div class="background-color-grey">
+                <div class="container-fluid max-width-set">
+                    <div class="row">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="blank-space-two"></div> 
+    </section>
+    
+    <!-- Footer -->
+        <footer class="text-center text-md-start">
+    
+          <div class="container-fluid p-4">
+    
+            <div class="row">
+    
+              <div class="col-lg-2 col-md-3 p-md-0 p-4 pl-md-4">
+                <p class="tittle">Design office</p>
+                <a href="mailto:info@susannacots.com" class="subtittle"><p class="subtittle">info@rosinteriors.com</p></a>
+                <a href="tel:+34 931 234 567" class="subtittle"><p class="subtittle">+34 931 234 567</p></a>
+              </div>
+    
+              <div class="col-lg-2 offset-md-1 offset-0 col-md-3 p-md-0 p-4">
+                <p class="tittle">Press office</p>
+                <a href="mailto:press@susannacots.com" class="subtittle"><p class="subtittle">press@rosinteriors.com</p></a>
+                <a href="tel:+34 615 431 842" class="subtittle"><p class="subtittle">+34 615 431 842</p></a>
+              </div>
+    
+              <div class="col-lg-4  col-xl-4 col-md-5 offset-lg-2 offset-md-0 p-md-0 p-4 ">	
+                <p class="tittle pr-3 d-md-none d-flex">Get inspired</p>
+                <div class="d-flex container-social pb-5 pb-md-0 mb-4">
+                    <p class="tittle pr-3 d-none d-md-block">Get inspired</p>
+                    <a href="#/" class="icon px-md-3 px-0 pr-5" target="_blank"><img src="https://www.susannacots.com/images/footer/insta.svg" class="d-none d-md-flex"><img class="d-flex d-md-none" src="https://www.susannacots.com/images/footer/insta_mov.svg"></a>
+                    <a href="#" class="icon px-md-3 px-0 pr-5" target="_blank"><img src="https://www.susannacots.com/images/footer/facebook.svg" class="d-none d-md-flex"><img class="d-flex d-md-none" src="https://www.susannacots.com/images/footer/facce_mov.svg"></a>
+                    <a href="#" class="icon px-md-3 px-0 pr-5" target="_blank"><img src="https://www.susannacots.com/images/footer/twiter.svg" class="d-none d-md-flex"><img class="d-flex d-md-none" src="https://www.susannacots.com/images/footer/twit_mov.svg"></a>
+                    <a href="#" class="icon px-md-3 px-0 pr-5" target="_blank"><img src="https://www.susannacots.com/images/footer/pinterest.svg" class="d-none d-md-flex"><img class="d-flex d-md-none" src="https://www.susannacots.com/images/footer/pint_mov.svg"></a>
+                </div>
+                <div class="d-flex flex-md-row flex-column mt-md-0 mt-5 ">
+                    <a href="https://www.susannacots.com/aviso-legal" class="text-legal pr-5 pb-3 pb-md-0">Aviso legal</a>
+                    <a href="https://www.susannacots.com/politica-de-privacidad" class="text-legal pr-5 pb-3 pb-md-0">Política de privacidad</a>
+                    <a href="https://www.susannacots.com/politica-de-cookies" class="text-legal pr-3 pb-4 pb-md-0">Política de cookies</a>
+                </div>
+                <div class="d-flex">
+                    <p class="pt-3 text-legal">© Sandra Barrachina Code Design 202</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+         
+    
+        </footer>
+        <!-- Footer -->
+
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        
+        <script type="text/javascript" src="https://www.susannacots.com/front/js/main.js"></script>
+        <script type="text/javascript" src="https://www.susannacots.com/front/js/bootstrap.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+        
+        
+        
+        <script src="https://www.google.com/recaptcha/api.js?render=6LepCM0bAAAAAC6vQVRRGX00P2JlmePx0kMiNkBm"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/autosize.js/4.0.2/autosize.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                grecaptcha.ready(function () { // put my public key
+        
+                    grecaptcha.execute('6LepCM0bAAAAAC6vQVRRGX00P2JlmePx0kMiNkBm', {
+                        action: 'submit'
+                    }).then(function (token) { //take the token to send
+                        var recaptchaResponse = document.getElementById('recaptchaResponse');
+        
+                        recaptchaResponse.value = token;
+        
+                    });
+                });
+                autosize(document.querySelectorAll('#message'));
+                    $(document).on('#message', function () {
+                    $(this).outerHeight(38).outerHeight(this.scrollHeight);
+                }); 
+        
+        
+                function validardatos_contacto() {
+        
+                    var testEmail = /^[A-Z0-9._%+-]+@([A-Z0-9-]+\.)+[A-Z]{2,4}$/i;
+                    var error = 0;
+        
+                    if ($('#name').val().length < 1) {
+                        error = 1;
+                        $('#name').addClass('alert_error');
+                    } else {
+                        $('#name').removeClass('alert_error');
+                    }
+                    if ($('#message').val().length < 10) {
+                        error = 1;
+                        $('#message').addClass('alert_error');
+                    } else {
+                        $('#message').removeClass('alert_error');
+                    }
+                    if ($('#telephone').val().length < 1) {
+                        error = 1;
+                        $('#telephone').addClass('alert_error');
+                    } else {
+                        $('#telephone').removeClass('alert_error');
+                    }
+                    if (!testEmail.test($('#email').val())) {
+                        error = 1;
+                        $('#email').addClass('alert_error');
+                    } else {
+                        $('#email').removeClass('alert_error');
+                    }
+                    if ($('#privacy').is(':checked')) {
+                        $('#privacy').removeClass('alert_error_radius');
+                    } else {
+                        error = 1;
+                        $('#privacy').addClass('alert_error_radius');
+                    }
+        
+                    return error;
+                };
+        
+                $('#ajaxSubmit').click(function(e){
+        
+                    e.preventDefault();
+        
+                    // Si no devuelve ningún fallo la validación JS envía el mensaje
+                    if(validardatos_contacto() == 0) {
+        
+                        $('.text-send-loader').hide();
+                        $('.hidden-loader').show();
+                        $('.button-pointer').attr('disabled', 'true');
+                        
+                        $.ajaxSetup({
+                            headers: {
+                                'X-CSRF-TOKEN': $('meta[name="_token"]').attr('content')
+                            }
+                        });
+                       
+                        $.ajax({
+                            
+                            url: "https://www.susannacots.com/contacto",
+                            method: 'POST',
+                            data: {
+                                name: $('#name').val(),
+                                email: $('#email').val(),
+                                telephone: $('#telephone').val(),
+                                message: $('#message').val(),
+                                privacy: $('#privacy').val(),
+                                recaptcha: $('#recaptchaResponse').val(),
+                                _token: $('#token').val(),
+                            },
+                            success: function (data) {
+        
+                                var html = "";
+        
+                                if (data.status == 'failure') { 
+        
+                                    if (typeof data.errors === 'string') {
+        
+                                        html = data.errors;
+        
+                                    } else {
+        
+                                        $.each(data.errors, function (i, item) {
+                                            html += item + "<br>";
+                                            console.log(item);
+                                        });
+                                    }
+                                   
+                                    $('#name').removeClass('alert_error');
+                                    $('#message').removeClass('alert_error');
+                                    $('#email').removeClass('alert_error');
+                                    $('#telephone').removeClass('alert_error');
+                                    $('#privacy').removeClass('alert_error_radius');
+                                    $('#alert_error').fadeIn().html(html);
+                                   
+                                    var send = document.getElementById("alert_error");
+                                    send.scrollIntoView({behavior: "smooth", block: "center"});
+                                   
+                                    $('#ajaxSubmit').show();
+                                    $('.text-send-loader').show();
+                                    $('.hidden-loader').hidden();
+                                    $('.button-pointer').removeAttr("disabled");
+                                    $('#truest').addClass("d-none");   
+                                    $('#normal').removeClass("d-none"); 
+                                } else {
+        
+                                    $('#alert_error').hide();
+                                    $('#name').removeClass('alert_error');
+                                    $('#privacy').removeClass('alert_error_radius');
+                                    $('#telephone').removeClass('alert_error');
+                                    $('#message').removeClass('alert_error');
+                                    $('#email').removeClass('alert_error');
+                                    $('.text-send-loader').show();
+                                    $('.hidden-loader').hide();
+                                    $('.button-pointer').addClass('send');
+                                    $('.button-pointer').removeAttr("disabled");                            
+                                    $('#normal').addClass("d-none");   
+                                    $('#truest').removeClass("d-none");   
+                                    var send = document.getElementById("ajaxSubmit");
+                                    send.scrollIntoView({behavior: "smooth", block: "center"});
+        
+                                }
+                            },
+                            error: function (data) {
+        
+                                var html = "";
+        
+                                if (typeof data.errors === 'string') {
+                                    html = data.errors;
+                                } else {
+                                    $.each(data.errors, function (i, item) {
+                                        html += item + "<br>";
+                                        console.log(item);
+                                    });
+                                }
+        
+                                $('#name').removeClass('alert_error');
+                                $('#message').removeClass('alert_error');
+                                $('#email').removeClass('alert_error');
+                                $('#privacy').removeClass('alert_error_radius');
+                                $('#telephone').removeClass('alert_error');
+                                $('#alert_error').fadeIn().html(html);
+                                $('.text-send-loader').show();
+                                $('.hidden-loader').hide();
+                                var send = document.getElementById("alert_error");
+                                send.scrollIntoView({behavior: "smooth", block: "center"});
+                            }
+        
+        
+                        });
+                    // Si devuelve algún fallo la validación JS muestra mensaje de error
+                    } else {
+        
+                        $('#alert_error').show();
+                        $('.text-send-loader').show();
+                        $('.hidden-loader').hide();
+                    }
+                });
+            });
+        </script>
+        
+
+    
+</body>
+</html>
