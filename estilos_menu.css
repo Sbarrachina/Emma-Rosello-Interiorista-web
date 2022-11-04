@@ -87,7 +87,7 @@ display: none;
     position: fixed;
     top: 70px;
     left: -100%;
-    background: #f8dee0;
+    background: white;
     width: 100%;
     height: 100vh;
     right: 0;
@@ -259,7 +259,7 @@ header{
 }
 
 #sobremi .sobremi h2 span {
-    color: #ff5080;
+    color: #0f0e0e;
 }
 
 #sobremi .sobremi h3 {
@@ -289,7 +289,7 @@ header{
 }
 
 #sobremi .sobremi a:hover {
-    background-color: #f8dee0;
+    background-color: #eee5e8;
     color: rgb(13, 11, 11);
 }
 
@@ -330,7 +330,7 @@ ul{
 	list-style: none;
 }
 .footer{
-	background-color: #f8dee0;
+	background-color: #0e0d0d;
     padding: 70px 0;
 }
 .footer-col{
@@ -339,7 +339,7 @@ ul{
 }
 .footer-col h4{
 	font-size: 18px;
-	color: #090808;
+	color: #f0e7e7;
 	text-transform: capitalize;
 	margin-bottom: 35px;
 	font-weight: 500;
@@ -361,32 +361,32 @@ ul{
 .footer-col ul li a{
 	font-size: 16px;
 	text-transform: capitalize;
-	color: #1b1717;
+	color: #eae2e2;
 	text-decoration: none;
 	font-weight: 300;
-	color: #0d0b0b;
+	color: #e9dbdb;
 	display: block;
 	transition: all 0.3s ease;
 }
 .footer-col ul li a:hover{
-	color: #080808;
+	color: #ead8d8;
 	padding-left: 8px;
 }
 .footer-col .social-links a{
 	display: inline-block;
 	height: 40px;
 	width: 40px;
-	background-color: rgba(240, 227, 227, 0.2);
+	background-color: rgba(244, 235, 235, 0.2);
 	margin:0 10px 10px 0;
 	text-align: center;
 	line-height: 40px;
 	border-radius: 50%;
-	color: #141111;
+	color: #eae1e1;
 	transition: all 0.5s ease;
 }
 .footer-col .social-links a:hover{
 	color: #24262b;
-	background-color: #ecb9ea;
+	background-color: #f3e9f2;
 }
 
  

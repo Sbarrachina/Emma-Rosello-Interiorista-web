@@ -32,7 +32,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 20px;
+  padding-top:20px;
 }
 .main-header__link {
   color: #333;
@@ -326,8 +326,8 @@ img {
 }
 
 .main-footer{
-  background: #F8DEE0;
-  color: rgb(14, 11, 11);
+  background: #F7F7F7;
+  color: rgb(26, 24, 24);
   padding: 30px 20px;
 }
 .footer__title{
@@ -335,10 +335,10 @@ img {
   padding-bottom: 20px;
 }
 .footer__txt {
-  color: #555;
+  color:rgb(86, 81, 81);
 }
 .footer__link{
-  color: #555;
+  color: rgb(86, 81, 81);
   text-decoration: none;
   display: block;
   padding: 10px 0;
@@ -494,4 +494,9 @@ img {
   .product__img {
     height: 200px;
   }
+}
+
+/* header con logo */
+.logoEmma{
+  width: 20%;
 }
